@@ -1,1 +1,5 @@
-print("hello world")
+y=int(input("ENTER THE YEAR:"))
+if y%4==0:
+    print("LEAP YEAR")
+else:
+    print("NOT A LEAP YEAR")
